@@ -131,6 +131,7 @@ if (window.location.hostname === "localhost") {
   rollbarInstance.configure({ enabled: false });
 }
 Vue.prototype.$rollbar = rollbarInstance;
+// eslint-disable-next-line no-unused-vars
 Vue.config.errorHandler = (err, vm, info) => {
   // eslint-disable-line no-unused-vars
   vm.$rollbar.error(err);
