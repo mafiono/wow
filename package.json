@@ -20,7 +20,7 @@
     "date-fns-tz": "^2.0.0",
     "register-service-worker": "^1.7.2",
     "rollbar": "^2.26.2",
-    "vue": "^2.6.14",
+    "vue": "^3.0.0",
     "vue-content-placeholders": "^0.2.1",
     "vue-country-region-select": "^2.0.16",
     "vue-currency-input": "^3.0.5",
